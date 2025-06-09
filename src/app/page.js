@@ -9,17 +9,16 @@ export default function HomePage() {
         Módulo de VENTAS
       </p>
       <div className="flex flex-col gap-4">
-        <Link href="/cuentas-cobrar" legacyBehavior>
-          <a className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out">
-            Ir a Cuentas por Cobrar
+        <Link href="/venta" legacyBehavior>
+          <a className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out">
+            Registrar Venta
           </a>
         </Link>
-        {/* Puedes añadir más enlaces a otras secciones aquí */}
-        {/*<Link href="/otra-seccion" legacyBehavior>
-          <a className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out">
-            Otra Sección (Ejemplo)
+        <Link href="/cuentas-cobrar" legacyBehavior>
+          <a className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out">
+            Cuentas por Cobrar
           </a>
-        </Link>*/}
+        </Link>
       </div>
     </main>
   );
