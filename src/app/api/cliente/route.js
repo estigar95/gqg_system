@@ -12,6 +12,20 @@ export async function GET() {
 }
 
 export async function POST(req) {
+  /*
+  * se carga asi
+  *{
+    "nombres": "juan",
+    "apellidos": "perez",
+    "documentonro": "123412345",
+    "direccion": "Av. Siempre Viva 123",
+    "email": "juanperez@example.com",
+    "telefono": "09042333",
+    "activo": 1
+}
+  */
+
+
   try {
     const data = await req.json();
     const {
